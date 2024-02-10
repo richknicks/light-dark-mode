@@ -279,6 +279,6 @@ input:checked + .slider::before {
     flex-direction: column;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 50px;
   }
 }
