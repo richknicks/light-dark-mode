@@ -259,11 +259,11 @@ input:checked + .slider::before {
   margin-right: 5px;
 }
 
-@media screen and (width < 1200px) {
+@media screen and (width < 768px) {
   .about-container {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     flex-direction: column;
   }
   .buttons {
