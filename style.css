@@ -259,7 +259,7 @@ input:checked + .slider::before {
   margin-right: 5px;
 }
 
-@media screen and (width < 768px) {
+@media screen and (width < 1200px) {
   .about-container {
     display: flex;
     justify-content: space-evenly;
@@ -277,5 +277,8 @@ input:checked + .slider::before {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  h1 {
+    font-size: 5rem;
   }
 }
